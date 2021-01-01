@@ -408,6 +408,8 @@
 
 @media (max-width: 576px){
     .site-footer .sitefooterbody i{
+        margin-left: 15px;
+        margin-right: 15px;
         font-size: 24px;
     }
     .site-footer .sitefooterbody p{

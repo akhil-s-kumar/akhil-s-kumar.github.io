@@ -403,6 +403,45 @@
     margin-bottom: 10px;;
 }
 
+.blogdetail{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.blogdetail h1{
+    color: #0A0A0A;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.blogdetail p{
+    color: #707070;
+    font-size: 16px;
+}
+
+.blogdetail h2{
+    padding-bottom: 20px;
+}
+
+.blogdetail h3{
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 6px;
+    border-left-color: #2CC791;
+    border-radius: 3px;
+    background-color: #F5F7F9;
+
+}
+
 .contactme{
     font-family:'Poppins', sans-serif;
     padding-bottom: 100px;

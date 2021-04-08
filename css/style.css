@@ -335,6 +335,74 @@
     font-size: 16px;
 }
 
+.blog{
+    font-family:'Poppins', sans-serif;
+    padding-bottom: 100px;
+}
+
+.blog h1{
+    font-family: 'Poppins', sans-serif;
+    color: #0A0A0A;
+    font-size: 26px;
+    font-weight: 900;
+    padding-top:100px;
+    padding-bottom:30px;
+}
+
+.blog h3{
+    font-family: 'Poppins', sans-serif;
+    color: #0A0A0A;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.blog p{
+    font-family: 'Poppins', sans-serif;
+    color: #444041;
+}
+
+.blog span{
+    background-color: #2CC791; 
+    color:#FFFFFF; 
+    margin-right:10px;
+}
+
+.blog .date{
+    background-color: transparent;
+    color: #707070;
+    padding-right: 15px;
+}
+
+.blog ul{
+    padding-top:40px;
+}
+
+.blog .readmorebtn{
+    font-family:'Poppins', sans-serif;
+    border-color: #29C08D;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    background : linear-gradient(to right, #1FA175, #29C08D);
+}
+
+.viewallblog p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.viewallblog .btn{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 50px;
+    border-color: #2CC791;
+    background:  linear-gradient(to right, #1FA175, #29C08D);
+    margin-left:20px;
+    margin-bottom: 10px;;
+}
+
 .contactme{
     font-family:'Poppins', sans-serif;
     padding-bottom: 100px;

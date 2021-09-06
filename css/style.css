@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.body{
+    font-family: 'Inconsolata', monospace;
+}
 
 .site-header{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(57deg, #F5F5F5, #F5F5F5);
+    background:linear-gradient(57deg, #1E1E28, #1E1E28);
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 
 .navbar{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-weight: 500;
     font-size: 16px;
     transition: 0.6s;
 }
 
 .floatingNav {
-    background-color: #FFFFFF;
+    background-color: #1E1E28;
     box-shadow: 0 2.6px 2.6px 0px rgba(0,0,0,.06);
     transition: 0.6s;
   }
@@ -32,70 +35,66 @@
 }
 
 .navbar .navbar-nav .nav-item a{
-    color: #464646;
+    color: #FFFFFF;
     padding-left: 30px;
 }
 
 .navbar .navbar-nav .nav-item a:hover{
-    color: #2CC791;
+    color: #F8C246;
     transition: 0.7s;
 }
 
 .jumbotron{
+    font-family: 'Inconsolata', monospace;
     padding-left: 60px;
     background-color:transparent;
     border-radius: 0px;
 }
 
 .jumbotron h1{
-    font-family: 'Open Sans', sans-serif;
-    color: #292929;
+    color: #FFFFFF;
     padding-top: 170px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .jumbotron h2{
-    font-family: 'Poppins', sans-serif;
-    color: #2CC791;
+    color: #F8C246;
     font-size: 70px;
     font-weight: 700;
     padding-top: 10px;
 }
 
 .jumbotron p{
-    font-family: 'Open Sans', sans-serif;
-    color: #292929;
+    color: #FFFFFF;
     font-size: 16pt;
     padding-top: 3px;
 }
 
 .jumbotron .btn{
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-color: #2CC791;
+    background-color: #F8C246;
     border-radius: 50px;
-    border-color: #2CC791;
+    border-color: #F8C246;
 }
 
 .jumbotron .btn:hover{
-    color: #2CC791;
-    font-family: 'Poppins', sans-serif;
+    color: #F8C246;
     background-color:transparent;
     border-radius: 50px;
-    border-color: #2CC791;
+    border-color: #F8C246;
     transition: 0.6s;
 }
 
 .jumbotron .btndownloadcv{
     background-color:transparent;
-    color: #2CC791;
+    color: #F8C246;
     margin-left: 20px;
 }
 
 .jumbotron .btndownloadcv:hover{
-    background-color:#2CC791;
+    background-color:#F8C246;
     color: #FFFFFF;
     margin-left: 20px;
     transition: 0.6s;
@@ -103,7 +102,10 @@
 
 @media(max-width:992px){
     .navbar{
-        background-color: #FFFFFF;
+        background-color: #1E1E28;
+    }
+    .headerImg{
+        display: none;
     }
 }
 
@@ -122,9 +124,20 @@
     }
 }
 
+.headerImg{
+    align-items: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerImg img{
+    height: 80%;
+    width: 80%;
+}
+
 .aboutme .head h2{
-    font-family:'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 900;
     padding-top:100px;
@@ -136,16 +149,15 @@
 }
 
 .aboutme .body h2{
-    font-family:'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 900;
     padding-bottom: 10px;
 }
 
 .aboutme .body h3{
-    font-family:'Poppins', sans-serif;
-    color: #2CC791;
+    color: #F8C246;
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 4px;
@@ -153,33 +165,33 @@
 
 .aboutme .body p{
     padding-top:5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 15px;
-    color: #707070;
+    color: #FFFFFF;
 }
 
 .aboutme .body td{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 14px;
-    color:#707070;
+    color:#FFFFFF;
 }
 
 .aboutme .body span{
-    color:#2CC791;
+    color:#F8C246;
 }
 
 .aboutme .body .btn{
-    font-family: 'Poppins', sans-serif;
-    border-color: #2CC791;
+    font-family: 'Inconsolata', monospace;
+    border-color: #F8C246;
     border-radius: 50px;
     color: #FFFFFF;
     font-size: 13pt;
-    background-color:#2CC791 ;
+    background-color:#F8C246 ;
     width: 100px;
 }
 
 .aboutme .body .education i{
-    color: #2CC791;
+    color: #F8C246;
     font-size: 40px;
     padding-top:50px;
     padding-bottom: 20px;
@@ -188,8 +200,8 @@
 
 .aboutme .body .education p{
     padding-top:50px;
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 100;
 }
@@ -220,7 +232,7 @@
 }
 
 .serviceshead h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     color: #FFFFFF;
     font-size: 26px;
     font-weight: 900;
@@ -229,38 +241,38 @@
 }
 
 .serviceshead p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 14px;
     color: #FFFEFF;
 }
 
 .servicesbody i{
-    color:#2CC791;
+    color:#F8C246;
     font-size:40px;
     padding-top:80px;
     font-weight: 100;
 }
 
 .servicesbody p{
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 100;
     padding-top:80px;
 }
 
 .getquote p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 30px;
 }
 
 .getquote .btn{
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
     border-radius: 50px;
-    border-color: #2CC791;
-    background:  linear-gradient(to right, #1FA175, #29C08D);
+    border-color: #F8C246;
+    background:  linear-gradient(to right, #F8C246, #F8C245);
     margin-left:20px;
     margin-bottom: 10px;;
 }
@@ -272,6 +284,7 @@
 
 .inner
 {
+    color: #FFFFFF;
     display: inline-block;
 }
 
@@ -280,46 +293,52 @@
     padding-bottom: 100px;
 }
 
+.card{
+    background-color: #2C2C38;
+    border: none;
+    border-radius: 15px;
+}
+
 .portfolio .featurep {
-    font-family: 'Poppins', sans-serif;
-    color: #2CC791;
+    font-family: 'Inconsolata', monospace;
+    color: #F8C246;
     font-size: 14px;
 }
 
 .portfolio h1{
-    font-family: 'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 900;
     padding-bottom:30px;
 }
 
 .portfolio h3{
-    font-family: 'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 600;
     padding-bottom: 18px;
 }
 
 .portfolio p{
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
 }
 
 .portfolio span{
-    background-color: #2CC791; 
+    background-color: #F8C246; 
     color:#FFFFFF; 
     margin-right:10px;
 }
 
 .portfolio .codebtn{
-    font-family:'Poppins', sans-serif;
-    border-color: #29C08D;
+    font-family: 'Inconsolata', monospace;
+    border-color: #F8C246;
     border-radius: 50px;
     color: #FFFFFF;
     font-size: 16px;
-    background : linear-gradient(to right, #1FA175, #29C08D);
+    background : linear-gradient(to right, #F8C246, #F8C245);
 }
 
 .portfolio ul{
@@ -329,20 +348,20 @@
 .portfolio .visitbtn{
     margin-left: 20px;
     font-family:'Poppins', sans-serif;
-    border-color: #29C08D;
+    border-color: #F8C246;
     border-radius: 50px;
-    color: #29C08D;
+    color: #F8C246;
     font-size: 16px;
 }
 
 .blog{
-    font-family:'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     padding-bottom: 100px;
 }
 
 .blog h1{
-    font-family: 'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 900;
     padding-top:100px;
@@ -350,27 +369,27 @@
 }
 
 .blog h3{
-    font-family: 'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 600;
     padding-bottom: 18px;
 }
 
 .blog p{
-    font-family: 'Poppins', sans-serif;
-    color: #444041;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
 }
 
 .blog span{
-    background-color: #2CC791; 
+    background-color: #F8C246; 
     color:#FFFFFF; 
     margin-right:10px;
 }
 
 .blog .date{
     background-color: transparent;
-    color: #707070;
+    color: #FFFFFF;
     padding-right: 15px;
 }
 
@@ -379,44 +398,44 @@
 }
 
 .blog .readmorebtn{
-    font-family:'Poppins', sans-serif;
-    border-color: #29C08D;
+    font-family: 'Inconsolata', monospace;
+    border-color: #F8C246;
     border-radius: 50px;
     color: #FFFFFF;
     font-size: 16px;
-    background : linear-gradient(to right, #1FA175, #29C08D);
+    background : linear-gradient(to right, #F8C246, #F8C245);
 }
 
 .viewallblog p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 30px;
 }
 
 .viewallblog .btn{
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
     border-radius: 50px;
-    border-color: #2CC791;
-    background:  linear-gradient(to right, #1FA175, #29C08D);
+    border-color: #F8C246;
+    background:  linear-gradient(to right, #F8C246, #F8C245);
     margin-left:20px;
     margin-bottom: 10px;;
 }
 
 .blogdetail{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     padding-top: 100px;
     padding-left: 30px;
 }
 
 .blogdetail h1{
-    color: #0A0A0A;
+    color: #FFFFFF;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
 .blogdetail p{
-    color: #707070;
+    color: #FFFFFF;
     font-size: 16px;
 }
 
@@ -436,15 +455,18 @@
     margin: 20px 0;
     border: 1px solid #eee;
     border-left-width: 6px;
-    border-left-color: #2CC791;
+    border-left-color: #F8C246;
     border-radius: 3px;
     background-color: #F5F7F9;
 
 }
 
 .contactme{
-    font-family:'Poppins', sans-serif;
-    padding-bottom: 100px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.contactme img{
+    height: 55%;
 }
 
 .contactme form{
@@ -452,8 +474,8 @@
 }
 
 .contactme h1{
-    font-family: 'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 26px;
     font-weight: 900;
     padding-top: 100px;
@@ -462,9 +484,9 @@
 
 .contactme .form-group input, .contactme .form-group textarea{
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
-    background-color: #F5F5F5;
+    background-color: transparent;
     height: 50px;
 }
 
@@ -473,33 +495,33 @@
 }
 
 .contactme .form-group input:focus, .contactme .form-group textarea:focus{
-    border-color: #29C08D;
+    border-color: #F8C246;
 }
 
 .contactme .btnsubmit{
     margin-top:20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inconsolata', monospace;
     border-radius: 50px;
     font-size: 16px;
-    background : linear-gradient(to right, #1FA175, #29C08D);
+    background : linear-gradient(to right, #F8C246, #F8C245);
     color: #FFFFFF;
 }
 
 .site-footer{
     width: 100%;
     min-height: 45vh;
-    background:linear-gradient(57deg, #F5F5F5, #F5F5F5);
+    background:linear-gradient(57deg, #1E1E28, #1E1E28);
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .site-footer .sitefooterhead h1{
-    font-family: 'Poppins', sans-serif;
-    color: #0A0A0A;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 100;
     padding-top:100px;
     padding-bottom:20px;
-    color: #707070;
+    color: #FFFFFF;
 
 }
 
@@ -507,19 +529,28 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: 26px;
-    color: #707070;
+    color: #FFFFFF;
 }
 
 .site-footer .sitefooterbody i:hover{
-    color: #29C08D;
+    color: #F8C246;
     transition: 0.4s;
 }
 
 .site-footer .sitefooterbody p{
     font-size: 18px;
     padding-top: 50px;
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
+}
+
+@media(max-width:992px){
+    .contactme img{
+        display:none ;
+    }
+    .contactme form{
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 576px){

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
-.body{
+body{
     font-family: 'Inconsolata', monospace;
+    background-color: #1E1E28;
 }
 
 .site-header{
@@ -450,7 +451,8 @@
     padding-bottom: 20px;
 }
 
-.blogdetail h3{
+.blogdetail h3, h2{
+    color: #F8C246;
     font-size: 30px;
     font-weight: 900;
     padding-top: 30px;
@@ -460,11 +462,11 @@
 .callout {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #eee;
+    border: 1px solid transparent;
     border-left-width: 6px;
     border-left-color: #F8C246;
     border-radius: 3px;
-    background-color: #F5F7F9;
+    background-color: #2C2C38;
 
 }
 

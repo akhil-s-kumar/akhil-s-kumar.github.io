@@ -409,7 +409,7 @@ body {
 }
 
 .blogSingle {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .viewallblog p {
@@ -431,7 +431,6 @@ body {
 .blogdetail {
   font-family: "Inconsolata", monospace;
   padding-top: 100px;
-  padding-left: 30px;
 }
 
 .blogdetail h1 {

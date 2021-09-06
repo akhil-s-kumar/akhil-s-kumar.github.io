@@ -112,7 +112,7 @@
 
 @media (max-width: 576px){
     .navbar-brand{
-        padding-left: 20px;
+        padding-left: 0px;
     }
     
     .jumbotron{
@@ -214,7 +214,7 @@
 
 @media (max-width: 576px){
     .aboutme{
-        padding-left: 30px;
+        padding-left: 20px;
     }
     .aboutme .body .education i{
         padding-left: 0px;
@@ -228,7 +228,7 @@
 }
 
 .services {
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .serviceshead h2{
@@ -280,6 +280,7 @@
 #outer{
     width:100%;
     text-align: center;
+    margin-top: 70px;
 }
 
 .inner
@@ -297,6 +298,7 @@
     background-color: #2C2C38;
     border: none;
     border-radius: 15px;
+    margin-top: 50px;
 }
 
 .portfolio .featurep {
@@ -329,7 +331,8 @@
 .portfolio span{
     background-color: #F8C246; 
     color:#FFFFFF; 
-    margin-right:10px;
+    margin-right:5px;
+    margin-left: 5px;
 }
 
 .portfolio .codebtn{
@@ -404,6 +407,10 @@
     color: #FFFFFF;
     font-size: 16px;
     background : linear-gradient(to right, #F8C246, #F8C245);
+}
+
+.blogSingle{
+    margin-top: 50px;
 }
 
 .viewallblog p{

@@ -1,19 +1,19 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../Layout/Layout"
-import HomeSec from "../components/HomeSec/HomeSec"
+import ProjectSec from "../components/ProjectSec/ProjectSec"
 
-const Home = () => {
+const projects = () => {
   return (
     <>
       <Helmet>
-        <title>Home - Akhil S Kumar</title>
+        <title>Projects - Akhil S Kumar</title>
       </Helmet>
       <Layout>
-        <HomeSec />
+        <ProjectSec />
       </Layout>
     </>
   )
 }
 
-export default Home
+export default projects

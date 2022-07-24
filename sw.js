@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-97887045a463d344ad0b.js"
+    "url": "webpack-runtime-051c741527712148b4cb.js"
   },
   {
     "url": "framework-34a8363dc972135db7f7.js"
@@ -36,18 +36,18 @@ self.__precacheManifest = [
     "url": "styles.757263010cc55c97d5e7.css"
   },
   {
-    "url": "app-c41dce2748f148b1313a.js"
+    "url": "app-4038ad28a9e9184d7eb4.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0d664815312f711142173f50c1eca433"
+    "revision": "f93cc44625ccc2983ed31ba735a3a69a"
   },
   {
     "url": "polyfill-4718f0fec20e0d09d7f5.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ac28d688fec240063688fb798d174a33"
+    "revision": "276034b73cfd9ead9483284b33020869"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -152,12 +152,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/akhil-s-kumar.github.io`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/akhil-s-kumar.github.io/app-c41dce2748f148b1313a.js`))) {
+  if (!resources || !(await caches.match(`/app-4038ad28a9e9184d7eb4.js`))) {
     return await fetch(event.request)
   }
 
@@ -170,7 +170,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/akhil-s-kumar.github.io/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })

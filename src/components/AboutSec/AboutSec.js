@@ -67,6 +67,8 @@ const AboutSec = () => {
   )
 }
 
+export default AboutSec
+
 const Aboutsecwrapper = styled.div`
   background-color: #111111;
   font-family: "Montserrat", sans-serif;
@@ -104,5 +106,3 @@ const Aboutsecwrapper = styled.div`
     }
   }
 `
-
-export default AboutSec

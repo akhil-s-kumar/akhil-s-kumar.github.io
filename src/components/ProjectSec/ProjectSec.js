@@ -15,23 +15,23 @@ const ProjectSec = () => {
           </Col>
         </Row>
         <Row>
-          {projects.map(project => (
-            <Col lg={6}>
+          {projects.map((project,i) => (
+            <Col lg={6} key={i}>
               <Card className="shadow">
                 <Card.Body>
                   <div className="featandLink d-flex justify-content-between">
                     <p>Featured Project</p>
                     <div className="links">
-                      <a rel="noreferrer" href={project.sourceLink} target="_blank"><FaGithub/></a>
-                      <a rel="noreferrer" href={project.liveLink} target="_blank"><FaExternalLinkAlt/></a>
+                      <a rel="noreferrer" href={project.sourceLink} target="_blank"> <FaGithub/></a>
+                      <a rel="noreferrer" href={project.liveLink} target="_blank"><FaExternalLinkAlt/> </a>
                     </div>
                   </div>
                   <h3>{project.title}</h3>
                   <p>
                     {project.description}
                   </p>
-                  {project.techStacks.map(stack => (
-                    <span className="badge rounded-pill">{stack.stack}</span>
+                  {project.techStacks.map((stack,j) => (
+                    <span key={j} className="badge rounded-pill">{stack.stack}</span>
                   ))}
                 </Card.Body>
               </Card>

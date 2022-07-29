@@ -1,21 +1,21 @@
 import React from "react"
 import { Container, Row, Col, Card } from "react-bootstrap"
 import styled from "styled-components"
-import experiences from "../../data/experience"
+import timeline from "../../data/timeline"
 import TitleHead from "../TitleHead/TitleHead"
 
-const ExperienceSec = () => {
+const TimelineSec = () => {
   return (
-    <Experiencesecwrapper>
-      <Container className="experience">
+    <Timelinesecwrapper>
+      <Container className="timeline">
         <Row>
           <Col>
-            <TitleHead text="Experiences" />
+            <TitleHead text="Timeline" />
           </Col>
         </Row>
         <Contentwrapper>
-          {experiences.map(experience => (
-            <Row>
+          {timeline.map((timeline,i) => (
+            <Row key={i}>
               <Col
                 xs={"auto"}
                 className="text-center flex-column d-none d-sm-flex"
@@ -35,9 +35,9 @@ const ExperienceSec = () => {
               <Col className="py-2">
                 <Card className="shadow">
                   <Card.Body>
-                    <h5 className="float-end">{experience.date}</h5>
-                    <h4 className="card-title">{experience.title}</h4>
-                    <p className="card-text text-muted">{experience.desc}</p>
+                    <h5 className="float-end">{timeline.date}</h5>
+                    <h4 className="card-title">{timeline.title}</h4>
+                    <p className="card-text text-muted">{timeline.desc}</p>
                   </Card.Body>
                 </Card>
               </Col>
@@ -45,20 +45,20 @@ const ExperienceSec = () => {
           ))}
         </Contentwrapper>
       </Container>
-    </Experiencesecwrapper>
+    </Timelinesecwrapper>
   )
 }
 
-export default ExperienceSec
+export default TimelineSec
 
 const Contentwrapper = styled.div`
   margin-top: 50px;
 `
 
-const Experiencesecwrapper = styled.div`
+const Timelinesecwrapper = styled.div`
   background-color: #111111;
   font-family: "Montserrat", sans-serif;
-  .experience {
+  .timeline {
     padding: 50px 50px 100px 50px;
     .badge {
       border-radius: 100%;

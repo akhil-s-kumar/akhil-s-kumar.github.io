@@ -1,4 +1,4 @@
-export default [
+const projects = [
   {
     title: "Join Indian Forces",
     description: "Complete LMS for defence aspirants",
@@ -28,3 +28,5 @@ export default [
     techStacks: [{ stack: "React" }, { stack: "GraphQL" }, { stack: "Django" }]
   },
 ]
+
+export default projects

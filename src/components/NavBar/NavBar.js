@@ -29,8 +29,8 @@ const NavBar = () => {
               </Link>
             </Nav.Item>
             <Nav.Item>
-              <Link className="nav-link" to="/experience">
-                Experience
+              <Link className="nav-link" to="/timeline">
+                Timeline
               </Link>
             </Nav.Item>
             <Nav.Item>

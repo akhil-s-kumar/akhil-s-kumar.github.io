@@ -1,5 +1,10 @@
 const timeline = [
   {
+    title: "Tata Elxsi Mentorship 👨‍🏫",
+    date: "Jul 24, 2022",
+    desc: "Got oppurtunity to get Mentored by V Srikanth, Product and Competency Manager, Tata Elxsi.",
+  },
+  {
     title: "ISRO Internship 🚀",
     date: "Jan 16, 2022",
     desc: "Got oppurtunity to work on a project based on Identification of Features in a Remote Sensing Data using Deep Learning and Neural Network wich was guided by Scientists at NRSC, Hyderabad.",

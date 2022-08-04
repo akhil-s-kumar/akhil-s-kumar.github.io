@@ -16,6 +16,7 @@
 This Gatsby personal portfolio website is completely designed and buld from scratch by [AKhil S Kumar](https://www.linkedin.com/in/ImAkhilSKumar/). You are free to clone and reuse this website & Don't forget to add credit😅.
 
 ## Features this portfolio website contains
+
 1. Landing Page
 2. About Page
 3. Timeline Section
@@ -29,9 +30,11 @@ If you want to work with this project or create a version of it make sure to fol
 
 1. Make sure to install [Node](https://nodejs.org/en/)
 2. Install Gatsby
+
 ```
 npm install -g gatsby-cli
 ```
+
 Once the installation is complete muke sure you installed the correct version.
 
 ```
@@ -39,28 +42,33 @@ gatsby --version
 ```
 
 3. Create a project folder
-   
+
 ```bash
 $ mkdir Portfolio-Website
 $ cd Portfolio-Website
 ```
 
 4. Clone the repository
+
 ```bash
 $ git clone https://github.com/akhil-s-kumar/akhil-s-kumar.github.io.git
 $ cd akhil-s-kumar.github.io
 ```
 
 5. Open in VS Code
+
 ```bash
 code .
 ```
+
 ## 🚀 Quick start
 
 1.  **Run Gatsby site.**
+
 ```bash
 gatsby develop
 ```
+
 Your site is now running at [localhost:8000](http://localhost:8000)
 
 2.  **Modyfy the application**

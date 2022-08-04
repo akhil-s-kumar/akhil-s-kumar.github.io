@@ -47,13 +47,16 @@ const BlogDetailed = ({ children }) => {
                   </Card.Body>
                 </Card>
               </Col>
+              <Col lg={4}></Col>
             </Row>
           </Container>
         </Blogdetailedwrapper>
       </Layout>
     </>
   ):(
-    <></>
+    <>
+     <p>Some error has occured!</p>
+    </>
   )
 }
 
@@ -63,12 +66,13 @@ const Blogdetailedwrapper = styled.div`
   background-color: #111111;
   font-family: "Montserrat", sans-serif;
   .blogDetailed {
-    padding: 20px 0px 100px 0px;
+    padding-top: 20px;
+    padding-bottom: 80px;
     .card {
       background-color: #1a1a1a;
       border-radius: 10px;
       @media (max-width: 576px) {
-        margin: 0px 20px 100px 20px;
+        margin: 0px 2px 100px 2px;
       }
       .card-body {
         margin: 10px 50px 10px 50px;

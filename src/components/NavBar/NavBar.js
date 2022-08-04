@@ -39,14 +39,9 @@ const NavBar = () => {
               </Link>
             </Nav.Item>
             <Nav.Item>
-              <a
-                className="nav-link"
-                rel="noreferrer"
-                target="_blank"
-                href="https://dev.to/iamakhilskumar"
-              >
+              <Link className="nav-link" to="/blog">
                 Blog
-              </a>
+              </Link>
             </Nav.Item>
             <Nav.Item>
               <Link className="nav-link" to="/contact">

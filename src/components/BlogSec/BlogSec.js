@@ -23,7 +23,7 @@ const BlogSec = () => {
             <Link to={`/blog/${blogs[0].slug}`}>
               <h1>{blogs[0].title}</h1>
             </Link>
-            <p>{blogs[0].description}</p>
+            <p>{blogs[0].description.slice(0, 130)+'...'}</p>
             <div className="d-flex flex-row align-items-center">
               <Image
                 fluid
@@ -41,7 +41,7 @@ const BlogSec = () => {
             {blogs.map((blog, i) => {
               return blog.featured ? (
                 <div id={i} className="d-flex flex-row featuredPost">
-                  <div className="img-zoom col-6">
+                  <div className="img-zoom col-5">
                     <Image
                       fluid={true}
                       width={500}
@@ -50,12 +50,12 @@ const BlogSec = () => {
                       src={blog.image}
                     ></Image>
                   </div>
-                  <div className="featuredDetails col-6">
+                  <div className="featuredDetails col-7">
                     <h5>{blog.category}</h5>
                     <Link to={`/blog/${blog.slug}`}>
                       <h1>{blog.title}</h1>
                     </Link>
-                    <p>{blog.description}</p>
+                    <p>{blog.description.slice(0, 80)+'...'}</p>
                     <h3>Akhil S Kumar</h3>
                     <h3>{blog.date}</h3>
                   </div>
@@ -79,7 +79,7 @@ const BlogSec = () => {
                 <Link to={`/blog/${blog.slug}`}>
                   <h1>{blog.title}</h1>
                 </Link>
-                <p>{blog.description}</p>
+                <p>{blog.description.slice(0, 130)+'...'}</p>
                 <div className="d-flex flex-row align-items-center">
                   <Image
                     fluid

@@ -6,12 +6,13 @@ import blogs from "../../data/blog"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
 
 const BlogDetailed = ({ children }) => {
-  const slug = window.location.pathname.split("/").filter(function (el) {
+  const url = typeof window !== 'undefined' ? window.location.pathname : '';
+  const slug = url.split("/").filter(function (el) {
     return el !== ""
   })
   const slugtext = slug[slug.length - 1]
   const blog = blogs.find(blog => blog.slug === slugtext)
-  return (
+  return blog? (
     <>
       <Helmet>
         <title>{blog.title} Blog - Akhil S Kumar</title>
@@ -51,6 +52,8 @@ const BlogDetailed = ({ children }) => {
         </Blogdetailedwrapper>
       </Layout>
     </>
+  ):(
+    <></>
   )
 }
 
@@ -64,14 +67,22 @@ const Blogdetailedwrapper = styled.div`
     .card {
       background-color: #1a1a1a;
       border-radius: 10px;
-      margin-top: 50px;
+      @media (max-width: 576px) {
+        margin: 0px 20px 100px 20px;
+      }
       .card-body {
         margin: 10px 50px 10px 50px;
+        @media (max-width: 576px) {
+          margin: 10px 0px 10px 0px;
+        }
         .autanddate {
           h3 {
             margin-left: 10px;
             font-size: 15px;
             color: #fafafa;
+            @media (max-width: 576px) {
+              font-size: 12px;
+            }
           }
         }
         .title {
@@ -80,6 +91,9 @@ const Blogdetailedwrapper = styled.div`
             font-size: 45px;
             font-weight: 600;
             color: #fafafa;
+            @media (max-width: 576px) {
+              font-size: 35px;
+            }
           }
         }
         .category {

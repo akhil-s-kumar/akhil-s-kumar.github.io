@@ -55,7 +55,6 @@ const BlogDetailed = ({ children }) => {
     </>
   ):(
     <>
-     <p>Some error has occured!</p>
     </>
   )
 }

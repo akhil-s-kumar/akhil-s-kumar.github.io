@@ -117,7 +117,10 @@ const Blogdetailedwrapper = styled.div`
             border-radius: 10px
           }
           p{
-            font-size: 1.125rem;
+            font-size: 18px;
+            line-height: 35px;
+            opacity: 0.9;
+            font-weight: 400;
           }
           h2{
             margin: 30px 0px 15px 0px;

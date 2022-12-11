@@ -19,7 +19,9 @@ const HomeSec = () => {
               <Link to="/contact">
                 <ButtonComp text="Contact Me" />
               </Link>
-              <ButtonComp text="Resume" />
+              <Link to="https://drive.google.com/file/d/1M9kSwY4pGGLokm3P_rmOI6kSvBwZk9rd/view?usp=sharing" target="_blank">
+                <ButtonComp text="Resume" />
+              </Link>
             </div>
           </Col>
         </Row>

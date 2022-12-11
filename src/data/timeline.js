@@ -1,5 +1,10 @@
 const timeline = [
   {
+    title: "Web Dev Lead at ACM Club 💻",
+    date: "Oct 24, 2022",
+    desc: "Association for Computing Machinery Club web dev lead at Amrita Vishwa Vidyapeetham, Amritapuri Campus.",
+  },
+  {
     title: "Tata Elxsi Mentorship 👨‍🏫",
     date: "Jul 24, 2022",
     desc: "Got oppurtunity to get Mentored by V Srikanth, Product and Competency Manager, Tata Elxsi.",

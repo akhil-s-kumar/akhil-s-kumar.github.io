@@ -8,6 +8,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>Home - Akhil S Kumar</title>
+        <meta name="google-site-verification" content="SiB1sgiGZYdguOERr8VVZfJ72U0DAxAqLbz9ZDo_sh8" />
       </Helmet>
       <Layout>
         <HomeSec />

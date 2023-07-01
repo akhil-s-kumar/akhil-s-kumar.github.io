@@ -1,5 +1,15 @@
 const blogs = [
   {
+    date: "01 July 2023",
+    title: "🚀 Unforgettable ISRO Internship Experience! 🌟",
+    description:
+      "Unforgettable ISRO internship: Met inspiring leaders, worked on captivating projects, and gained valuable knowledge. Grateful for the experience!",
+    image: "https://drive.google.com/uc?export=view&id=12AAOuCP936Ig0cegbSdqWhzX1K81mLDB",
+    slug: "unforgettable-isro-internship-experience",
+    category: "Internship",
+    featured: true,
+  },
+  {
     date: "04 Aug 2022",
     title: "Tata Elxsi Mentorship Program",
     description:

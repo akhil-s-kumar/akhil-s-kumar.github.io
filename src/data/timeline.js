@@ -1,8 +1,23 @@
 const timeline = [
   {
-    title: "Web Dev Lead at ACM Club 💻",
+    title: "LPSC-ISRO Internship 🚀",
+    date: "Jun 12, 2023",
+    desc: "Unforgettable ISRO internship: Met inspiring leaders, worked on captivating projects, and gained valuable knowledge. Grateful for the experience!"
+  },
+  {
+    title: "ACM Web Lead 💻",
+    date: "Feb 27, 2023",
+    desc: "Become the lead of ACM Web Sig, helping students to enrich their skills in full-stck web development."
+  },
+  {
+    title: "Keltron internship 🚀",
+    date: "Jan 18, 2023",
+    desc: "Got oppurtunity to work on a project based on Student Management System using HTML, CSS, JavaScript, PHP & MySQL.",
+  },
+  {
+    title: "Joined ACM Club 💻",
     date: "Oct 24, 2022",
-    desc: "Association for Computing Machinery Club web dev lead at Amrita Vishwa Vidyapeetham, Amritapuri Campus.",
+    desc: "Association for Computing Machinery Club web dev sig at Amrita Vishwa Vidyapeetham, Amritapuri Campus.",
   },
   {
     title: "Tata Elxsi Mentorship 👨‍🏫",

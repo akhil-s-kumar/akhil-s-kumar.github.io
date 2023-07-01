@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Container, Row, Col, Table } from "react-bootstrap"
+import { Container, Row, Col, Table, Image } from "react-bootstrap"
 import styled from "styled-components"
 import TitleHead from "../TitleHead/TitleHead"
 import ButtonComp from "../ButtonComp/ButtonComp"
@@ -15,7 +15,7 @@ const AboutSec = () => {
           </Col>
         </Row>
         <Row className="content">
-          <Col lg={6}>
+          <Col lg={6} className="order-last order-lg-first">
             <h3>Open Source Developer</h3>
             <h2>AKHIL S KUMAR</h2>
             <p>
@@ -61,6 +61,13 @@ const AboutSec = () => {
               <ButtonComp text="Hire Me"></ButtonComp>
             </Link>
           </Col>
+          <Col lg={6} className="text-left rightImg order-first order-lg-last text-lg-center">
+            <Image
+              fluid
+              width={300}
+              src="https://drive.google.com/uc?export=view&id=1kW-PnGvUn4o6d-ShpNAuDWGra-qR-_nS"
+            ></Image>
+          </Col>
         </Row>
       </Container>
     </Aboutsecwrapper>
@@ -99,6 +106,15 @@ const Aboutsecwrapper = styled.div`
       }
       span {
         color: #15d7c8;
+      }
+    }
+    .rightImg img{
+      height: 450px !important;
+      border-radius: 15px;
+    }
+    @media (max-width: 992px) {
+      .rightImg img{
+        margin-bottom: 60px;
       }
     }
     @media (max-width: 576px) {

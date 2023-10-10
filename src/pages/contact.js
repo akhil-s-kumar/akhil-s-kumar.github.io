@@ -8,6 +8,7 @@ const contact = () => {
     <>
       <Helmet>
         <title>Contact - Akhil S Kumar</title>
+        <meta name="description" content="Connect with Akhil S Kumar – the Software Engineer, Entrepreneur, and YouTuber. Reach out to discuss collaborations, inquiries, or simply to say hello. Your feedback and questions are always welcome. Let's start a conversation today."></meta>
       </Helmet>
       <Layout>
         <ContactSec />

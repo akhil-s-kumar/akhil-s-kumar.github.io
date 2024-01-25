@@ -65,7 +65,7 @@ const AboutSec = () => {
             <Image
               fluid
               width={300}
-              src="https://drive.google.com/uc?export=view&id=1kW-PnGvUn4o6d-ShpNAuDWGra-qR-_nS"
+              src="https://lh3.google.com/d/1kW-PnGvUn4o6d-ShpNAuDWGra-qR-_nS"
             ></Image>
           </Col>
         </Row>

@@ -4,7 +4,7 @@ const blogs = [
     title: "🚀 Unforgettable ISRO Internship Experience! 🌟",
     description:
       "Unforgettable ISRO internship: Met inspiring leaders, worked on captivating projects, and gained valuable knowledge. Grateful for the experience!",
-    image: "https://drive.google.com/uc?export=view&id=12AAOuCP936Ig0cegbSdqWhzX1K81mLDB",
+    image: "https://lh3.google.com/d/12AAOuCP936Ig0cegbSdqWhzX1K81mLDB",
     slug: "unforgettable-isro-internship-experience",
     category: "Internship",
     featured: true,

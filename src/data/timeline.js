@@ -1,5 +1,10 @@
 const timeline = [
   {
+    title: "Joined Strawket Inc 🧑‍💻",
+    date: "September 22, 2023",
+    desc: "Joined Strawket Learning Inc as a DevOps Engineer Intern, and got a lot of exposure on AWS, Terraform and many more technologies."
+  },
+  {
     title: "LPSC-ISRO Internship 🚀",
     date: "Jun 12, 2023",
     desc: "Unforgettable ISRO internship: Met inspiring leaders, worked on captivating projects, and gained valuable knowledge. Grateful for the experience!"
